@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#1D3557"
+                android:text="SERVICIOS"
+                app:iconTint="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E63946"
+                android:text="PRODUCTOS" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#457B9D"
+                android:text="SUCURSALES" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sucursales"
+            android:textAlignment="center"
+            android:textSize="34sp" />
+
+        <ImageView
+            android:id="@+id/imageSucursales1"
+            android:layout_width="match_parent"
+            android:layout_height="267dp"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nos encontramos ubicados en las principales ciudades del pais, te invitamos a mirar nuestros showroom y conocer mas de la marca."
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="136dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageSucursales2"
+                android:layout_width="wrap_content"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+            <ImageView
+                android:id="@+id/imageSucursales3"
+                android:layout_width="wrap_content"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Bogota"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cartagena"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
